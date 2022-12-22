@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Rubik+Puddles&display=swap'); 
+
+body {
+    background-color: #F0F2B6;
+}
+
+
+h1 {
+    color: #AC4425;
+    display:flex;
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+}
+img {
+    
+    border-radius: 50%;
+    border: 5px solid #C1D5A4;
+    gap: 1rem;
+    width: 150px;
+}
+
+.content {
+    /* align-items: center; */
+    display: flex;
+    flex-direction:column;
+}
+
+.paragraph {
+    background-color: #C1D5A4;
+    border: 5px solid #224B0C;
+    margin: 3em;
+    padding: 1em;
+    align-self: center;
+    
+}
+
+p {
+    color: #224B0C;
+    font-family: 'Abel', sans-serif;
+
+}
